@@ -1,0 +1,25 @@
+#root{
+    -fx-background-color: gray;
+}
+
+#button{
+    -fx-background-color: gray;
+}
+
+#textarea1{
+    -fx-background-color: rgb(202,222,239);
+}
+
+#textarea1 .content{
+    -fx-background-color: rgb(202,222,239);
+}
+
+#textarea2{
+    -fx-background-color: rgb(202,222,239);
+    -fx-background-radius: 15;
+    -fx-border-radius: 15;
+}
+
+#textarea2 .content{
+    -fx-background-color: rgb(202,222,239);
+}

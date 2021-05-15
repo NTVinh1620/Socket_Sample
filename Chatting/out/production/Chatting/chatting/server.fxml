@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="520.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="chatting.Server">
+   <children>
+      <TextArea id="textarea1" fx:id="history" layoutX="5.0" layoutY="3.0" prefHeight="409.0" prefWidth="591.0">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding></TextArea>
+      <TextArea id="textarea2" fx:id="mess" layoutX="7.0" layoutY="416.0" prefHeight="103.0" prefWidth="495.0">
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+         <font>
+            <Font size="17.0" />
+         </font></TextArea>
+      <Button id="button" layoutX="502.0" layoutY="416.0" mnemonicParsing="false" onAction="#action" prefHeight="103.0" prefWidth="94.0" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="79.0" fitWidth="72.0" layoutX="516.0" layoutY="431.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@send.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+   </children>
+</Pane>
